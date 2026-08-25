@@ -1,0 +1,33 @@
+# ── Core API ────────────────────────────────
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic-settings>=2.2
+
+# ── Database / cache ────────────────────────
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+redis>=5.0
+
+# ── Auth ────────────────────────────────────
+python-jose[cryptography]>=3.3
+passlib[bcrypt]>=1.7
+
+# ── Scheduling ──────────────────────────────
+apscheduler>=3.10
+
+# ── HTTP / LLM ──────────────────────────────
+httpx>=0.27
+openai>=1.30
+
+# ── Vision / math ───────────────────────────
+numpy>=1.26
+opencv-python-headless>=4.9
+pillow>=10.2
+
+# ── Performance ─────────────────────────────
+orjson>=3.9
+
+# ── Testing ─────────────────────────────────
+pytest>=8.2
+httpx>=0.27

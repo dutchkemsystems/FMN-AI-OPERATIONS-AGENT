@@ -1,0 +1,5 @@
+FROM hyperledger/fabric-ccenv:2.5
+WORKDIR /chaincode
+COPY blockchain/chaincode/ .
+RUN go build -o /bin/fmn_chaincode ./
+CMD ["chaincode"]

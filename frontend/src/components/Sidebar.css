@@ -1,0 +1,11 @@
+.sidebar{width:240px;background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;flex-shrink:0}
+.sidebar-brand{display:flex;align-items:center;gap:10px;padding:20px;border-bottom:1px solid var(--border)}
+.brand-icon{font-size:1.5rem}
+.brand-title{font-weight:700;font-size:1rem}
+.brand-sub{font-size:.7rem;color:var(--text2);text-transform:uppercase;letter-spacing:.05em}
+.sidebar-nav{flex:1;padding:12px 8px;display:flex;flex-direction:column;gap:2px}
+.nav-link{display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:var(--radius);color:var(--text2);font-size:.875rem;font-weight:500;text-decoration:none;transition:background .15s,color .15s}
+.nav-link:hover{background:var(--surface2);color:var(--text)}
+.nav-link.active{background:rgba(59,130,246,.12);color:var(--primary)}
+.nav-icon{width:20px;text-align:center}
+.sidebar-footer{padding:12px 8px;border-top:1px solid var(--border)}
